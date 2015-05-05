@@ -18,6 +18,8 @@
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 	<!--Installing Bootstrap optional theme css file-->
 	<link rel="stylesheet" href="css/bootstrap.theme.css" type="text/css">
+	<!--Adding Custom CSS styles-->
+	<link rel="stylesheet" href="css/custom.css" type="text/css">
 </head>
 
 <body>
