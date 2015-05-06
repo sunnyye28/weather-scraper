@@ -18,6 +18,8 @@
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 	<!--Installing Bootstrap optional theme css file-->
 	<link rel="stylesheet" href="css/bootstrap.theme.css" type="text/css">
+	<!--Adding Custom CSS styles-->
+	<link rel="stylesheet" href="css/custom.css" type="text/css">
 </head>
 
 <body>
@@ -26,13 +28,13 @@
 
 	<div id="main-wrapper" class="container">
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
+			<div class="col-md-6 col-md-offset-3 center">
 				<h1>Weather Predictor</h1>
-				<p class="lead">Enter your city below to get a forecast for the weather.</p>
-				<div class="form-group">
-					<input type="text" class="form-control" name="city" placeholder="Eg. Paris, New York, Beijing" />
+				<p class="lead center">Enter your city below to get a forecast for the weather.</p>
+				<div class="form-group center">
+					<input type="text" id="input-city" class="form-control" name="city" placeholder="Eg. Paris, New York, Beijing" />
 				</div>
-				<div class="form-group">
+				<div class="form-group center">
 					<input type="submit" id="submit-button" class="btn btn-lg btn-primary" name="submit" value="Find My Weather"/>
 				</div>
 			</div>
