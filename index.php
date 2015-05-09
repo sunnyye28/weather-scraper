@@ -31,12 +31,14 @@
 			<div class="col-md-6 col-md-offset-3 center">
 				<h1>Weather Predictor</h1>
 				<p class="lead center">Enter your city below to get a forecast for the weather.</p>
-				<div class="form-group center">
-					<input type="text" id="input-city" class="form-control" name="city" placeholder="Eg. Paris, New York, Beijing" />
-				</div>
-				<div class="form-group center">
-					<input type="submit" id="submit-button" class="btn btn-lg btn-primary" name="submit" value="Find My Weather"/>
-				</div>
+				<form>
+					<div class="form-group center">
+						<input type="text" id="input-city" class="form-control" name="city" placeholder="Eg. Paris, New York, Beijing" />
+					</div>
+					<div class="form-group center">
+						<input type="submit" id="submit-button" class="btn btn-lg btn-primary" name="submit" value="Find My Weather"/>
+					</div>
+				</form>
 			</div>
 		</div>
 	</div>
