@@ -3,6 +3,7 @@
 	//the city name that the user inputs from the form is extracted using GET method, and stored as the variable 'city'
 	//Any spaces in the city name that the user inputs is replaced with a dash. weather forecast website must have dash instead of space to be able to return the forecast
 	$city = $_GET["city"];
+	$city = ucwords($city);
 	$city = str_replace(" ", "-", $city);
 
 	//using file get contents function to extract entire web page from weather-forecast.com, then saving it into the 'contents' variable
